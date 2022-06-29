@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CatPhotoApp</title>
+</head>
+
+<body>
+    <h2>CatPhotoApp</h2>
+    <main> 
+        <h3>Cat Photos</h3>
+        <!-- TODO: Add link to cat photos -->
+        <p>Click here to view more <a href="imgs/cats_1.jpg" target="_blank" width="350px" height="350px">cat photos</a>.</p>
+        <img src="imgs/cats_2.jpg" alt="A cute orange cat lying on its back." width="500px" height="500px">
+        <br>
+        <h3>Cat Lists</h3>
+        <p>Things that cats <strong>love</strong></p>
+        <ul>
+            <li>cat nip</li>
+            <li>laser pointer</li>
+            <li>lasagna</li>
+        </ul>
+        <img src="imgs/lasagna_2.jpg" alt="Lasagna" width="504px" height="825px">
+        <p>Things cats <strong>hate</strong></p>
+        <ol>
+            <li>flea treatment</li>
+            <li>thunder</li>
+            <li>other cats</li>
+        </ol>
+        <img src="imgs/cats_5.jpg" alt="A litter of cats." width="800px" height="500px">
+        <br>
+        <br>
+        <br>
+        <form action="/submit-cat-photo">
+            <input type="text" placeholder="cat photo URL" required>
+            <input type = "radio"> indoor
+            <input type = "radio"> outdoor
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+</body>
+</html>
